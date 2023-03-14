@@ -18,9 +18,18 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/Theme.AndroidExampleApp2.PopupOverlay" />
 
+    <!-- android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:name="com.example.app.MyApp"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme" -->
+
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include
+        android:id="@+id/contentMain"
+        layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
